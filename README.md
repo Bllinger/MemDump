@@ -7,7 +7,7 @@ Android内存dump工具，核心思想用ptrace注入进程，然后在目标进
 **usage：** 
 将_inject和libdump.so这两个文件放入/data/data，然后执行就行
 ```
-./_inject <pid> <libname.so> 
+./_inject <pid> <libname.so> //libname 是需要dump的so文件的名称
 ./_inject 2393 libnative-lib.so
 ```
 
